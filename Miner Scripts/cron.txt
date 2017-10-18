@@ -1,0 +1,5 @@
+Copy these lines into crontab -e
+@reboot /home/miner/startmining.sh
+* * * * * /home/miner/startmining.sh
+30 * * * * /home/miner/ipmailme.sh
+* * * * * /home/miner/healthchk.sh
