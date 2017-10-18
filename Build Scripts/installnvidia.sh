@@ -76,13 +76,13 @@ cmake ..
 cmake --build .
 
 ##XMR
-#./cpuminer -o stratum+tcp://europe.cryptonight-hub.miningpoolhub.com:20580 -a cryptonight -u baldreed.worker2 -p F16Falcon -t4 -D
+#./cpuminer -o stratum+tcp://europe.cryptonight-hub.miningpoolhub.com:20580 -a cryptonight -u user.worker2 -p x -t4 -D
 #BDF
-#./cpuminer -o stratum+tcp://bsd.suprnova.cc:8686 -a xevan -u balders.BTCBSDCPU2 -p F16Falcon -t4 -D
+#./cpuminer -o stratum+tcp://bsd.suprnova.cc:8686 -a xevan -u user.worker2 -p x -t4 -D
 ##LYBR
-#./cpuminer -o stratum+tcp://lbry.suprnova.cc:6256 -a lbry -u balders.BTCLBRYCPU2 -p F16Falcon -t4 -D
+#./cpuminer -o stratum+tcp://lbry.suprnova.cc:6256 -a lbry -u user.worker2 -p x -t4 -D
 ##BCN
-#minergate-cli -user baldersd@hotmail.com -bcn 4
+#minergate-cli -user user@.com -bcn 4
 #MUSICCOIN
 #setx GPU_FORCE_64BIT_PTR 0
 #setx GPU_MAX_HEAP_SIZE 100
