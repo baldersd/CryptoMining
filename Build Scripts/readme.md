@@ -33,8 +33,61 @@ Alternatively run "nvidia-smi" from shell.
 <hr/>
 <pre>*NOTICE* I'm working on documenting these next steps at the moment so I have attached a raw file for now no doubt imperfect but should get you going</pre>
 <hr/>
-<h2>Step 3. Install pre-requisite libraries</h2>
-<p>coming...</p>
+<h2>Step 3. Install pre-requisite libraries and key environment stuff</h2>
+<h3>SSH for remote access</h3>
+<pre>
+apt-get update && apt-get install -y openssh-server
+cp -a /etc/ssh/sshd_config /etc/ssh/sshd_config_backup
+rm -rf /etc/ssh/sshd_config
+touch /etc/ssh/sshd_config
+echo "Port 22" >> /etc/ssh/sshd_config
+echo "Protocol 2" >> /etc/ssh/sshd_config
+echo "HostKey /etc/ssh/ssh_host_rsa_key" >> /etc/ssh/sshd_config
+echo "HostKey /etc/ssh/ssh_host_dsa_key" >> /etc/ssh/sshd_config
+echo "HostKey /etc/ssh/ssh_host_ecdsa_key" >> /etc/ssh/sshd_config
+echo "HostKey /etc/ssh/ssh_host_ed25519_key" >> /etc/ssh/sshd_config
+echo "UsePrivilegeSeparation yes" >> /etc/ssh/sshd_config
+echo "KeyRegenerationInterval 3600" >> /etc/ssh/sshd_config
+echo "ServerKeyBits 2048" >> /etc/ssh/sshd_config
+echo "KeyRegenerationInterval 3600" >> /etc/ssh/sshd_config
+echo "SyslogFacility AUTH" >> /etc/ssh/sshd_config
+echo "LogLevel INFO" >> /etc/ssh/sshd_config
+echo "LoginGraceTime 120" >> /etc/ssh/sshd_config
+echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
+echo "StrictModes yes" >> /etc/ssh/sshd_config
+echo "RSAAuthentication yes" >> /etc/ssh/sshd_config
+echo "PubkeyAuthentication yes" >> /etc/ssh/sshd_config
+echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
+echo "IgnoreRhosts yes" >> /etc/ssh/sshd_config
+echo "RhostsRSAAuthentication no" >> /etc/ssh/sshd_config
+echo "HostbasedAuthentication no" >> /etc/ssh/sshd_config
+echo "PermitEmptyPasswords no" >> /etc/ssh/sshd_config
+echo "ChallengeResponseAuthentication no" >> /etc/ssh/sshd_config
+echo "X11Forwarding no" >> /etc/ssh/sshd_config
+echo "AllowTcpForwarding no" >> /etc/ssh/sshd_config
+echo "X11DisplayOffset 10" >> /etc/ssh/sshd_config
+echo "PrintMotd no" >> /etc/ssh/sshd_config
+echo "PrintLastLog yes" >> /etc/ssh/sshd_config
+echo "TCPKeepAlive yes" >> /etc/ssh/sshd_config
+echo "AcceptEnv LANG LC_*" >> /etc/ssh/sshd_config
+echo "Subsystem sftp /usr/lib/openssh/sftp-server" >> /etc/ssh/sshd_config
+echo "UsePAM yes" >> /etc/ssh/sshd_config
+service ssh restart
+</pre>
+<h3>Disable IPv6</h3>
+<pre>
+echo "net.ipv6.conf.all.disable_ipv6 = 1" >> /etc/sysctl.conf
+echo "net.ipv6.conf.default.disable_ipv6 = 1" >> /etc/sysctl.conf
+echo "net.ipv6.conf.lo.disable_ipv6 = 1" >> /etc/sysctl.conf
+/sbin/sysctl -p
+</pre>
+<h3>Remove CD-ROM (iso) as part of repo list</h3>
+<p>(If you get an error with apt commands)</p>
+<pre>
+rm -rf /etc/apt/sources.list
+touch /etc/apt/sources.list
+echo "# deb cdrom:[Linux Mint 18.2 _Sonya_ - Release amd64 20170628]/ xenial contrib main non-free" > /etc/apt/sources.list
+</pre>
 <h2>Step 4. Install NVIDIA CUDA 8 binaries</h2>
 <p>coming...</p>
 <h2>Step 5. Setup Over-clocking</h2>
