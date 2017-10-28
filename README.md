@@ -6,7 +6,7 @@
 <p>There is no support arm to this, the idea is it can get you a basic NVIDIA Ubuntu rig up and running and you tweak the bash scripts/cron jobs...etc...to suit your setup and schedules.</p>
 <p><i>If you do want to ask me something please feel free to and when I can I will try to help. Send your questions to <strong>baldersd@hotmail.com</strong> happy to take a look!</i></p>
 <h2>Linux Blend</h2>
-<p>After trialling various blends of Ubuntu and other I have found under my test cases anyway that Ubuntu with MATE gui (x64) proved to be the most stable and didnt give the usual grief with NVIDIA Overclocking settings (coolbits). All this works really well for me.
+<p>After trialling various blends of Ubuntu and other I have found under my test cases anyway that Ubuntu with MATE gui (x64) proved to be the most stable and didn't give the usual grief with NVIDIA Overclocking settings (coolbits). All this works really well for me.
 </p>
 <p>ubuntu-mate-16.04.3-desktop-amd64.iso</p>
 <h2>NVIDIA Driver</h2>
