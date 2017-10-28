@@ -21,7 +21,7 @@
 <ul>
   <li>overclock.sh</li>
   <p>You will need to edit this file a whole heap of times to find your optimal O/C settings.</p>
-  <p>--Be prepared to spend some hours on this--</p>
+  <pre>--Be prepared to spend some hours on this--</pre>
   <p><strong>This is my O/C balance for the three different cards in my 1st rig I setup.<br/><br/>Mining ZCASH (ZEC) with these settings on average I get:<br/>
     -- 560 Sol/s GPU0 (1080)<br/>
     -- 180 Sol/s GPU1 & 3 (1050TI)<br/>
