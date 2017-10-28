@@ -1,6 +1,6 @@
 #!/bin/bash
-TO="danb@swiftdev.net"
-FROM="miner01@kinesysgroup.co.uk"
+TO="baldersd@hotmail.com"
+FROM="miner01@localhost"
 EXT_IP_FILE="/etc/ipaddress"
 CURRENT_IP=$(curl http://ifconfig.me/ip)
 
