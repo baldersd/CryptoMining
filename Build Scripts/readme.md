@@ -23,3 +23,8 @@ After running this (may need to reboot) you should see the latest driver is dete
 <pre>
 To install a specific version this should also work "sudo apt-get install nvidia-384" (untested)
 </pre>
+<h2>Step 2. Open NVIDIA-SETTIGS applet and review</h2>
+<pre>
+You want to make sure all your cards are detected this will show quickly. 
+Alternatively run "nvidia-smi" from shell.
+</pre>
