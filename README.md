@@ -27,7 +27,7 @@
 <h2>Usage/Download</h2>
 You can just download the files from here or I guess you can git clone as well.
 <pre>
-git clone https://github.com/ minertools
+git clone git@github.com:baldersd/CryptoMining.git minertools
 cd minertools
 </pre>
 <h2>Donations</h2>
