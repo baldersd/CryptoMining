@@ -37,3 +37,7 @@ BTC address: 147j3E8wosUS8XbWG6YC7RKDwij7S7fyBD<br/>
 ZEC address: t1JeN79UwgR572JRzs7ue5J1v5LEiefFzzu<br/>
 ETH address: 0xb2d852e0fb624d929622bb945c3c8e49613c73d1<br/>
 </p>
+
+<h3>License</h3>
+<p>Code here is released under the GNU General Public License v2<br/>
+http://www.gnu.org/licenses/gpl-2.0.html</p>
