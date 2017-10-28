@@ -2,7 +2,7 @@
 <pre>Please note this was designed for use with EWBF miner but should be pretty easy to adapt for other miners like Claymore</pre>
 <h2>Health check scripts</h2>
 <ul>
-<li><strong>healthcheck.sh</strong> -- this reads the tail of the EWFB Miner log -- looks for the common fault codes and terminates the tmux session on finding a fault**</li>
+<li><strong>healthcheck.sh</strong> -- this reads the tail of the EWBF Miner log -- looks for the common fault codes and terminates the tmux session on finding a fault**</li>
 <li><strong>ipmailme.sh</strong> -- uses POSTFIX to send an email message when PUBLIC IP changes (Uses a CURL request to obtain current IP and compares with the previous one which is stored in a file locally)</li>
 <li><strong>startmining.sh</strong> -- contains the TMUX code to launch the miner and also monitors the process so we can restart it if it crashes.</li>
 <li><strong>tmuxkill.sh</strong> -- (optional file) -- hard stops the miner software (actual kills the tmux session) on demand.</li>
