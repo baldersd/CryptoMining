@@ -10,12 +10,13 @@
 <ul>
 <li>cron.txt -- use the lines within in your cron file (run "crontab -e" but under your account not sudo/root)</li>
 </ul>
-<p>This will execute the healthcheck scripts above constantly:</p>
+<p>This will execute the tasks (healthcheck scripts above) constantly:</p>
 <ul>
   <li>Run miner on a reboot.</li>
   <li>If my public IP changes email me!(requires POSTFIX).</li>
   <li>If miner crashes restart it (currently this is coded for EWBF but you should be able to adapt this easily).</li>
   </ul>
+  <p>Be sure to change the path to your download folder location</p>
 <h2>Over-clocking</h2>
 <ul>
   <li>overclock.sh</li>
