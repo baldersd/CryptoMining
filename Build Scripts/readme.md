@@ -16,6 +16,8 @@ See <strong>updatenvidia.sh</strong> but essentially as sudo just run:
 apt-get update
 add-apt-repository -y "ppa:graphics-drivers/ppa"
 </pre>
+Should look something like this screenshot:
+<img src="driverselect.png"/>
 <p>
 After running this (may need to reboot) you should see the latest driver is detected in the DRIVERS applet.
 </p>
