@@ -3,7 +3,7 @@
 <h2>Description</h2>
 <p>Welcome to my mini portal for assistance for newcomers to mining in building a decent, stable, nicely overclocked rig and setting up your miner(s) with some fault tolerance to mine various crypto currencies 24/7 without suffering too much downtime and manual effort restoring things.  
 </p>
-<p>There is no support arm to this, the idea is it can get you a basic NVIDIA Ubuntu rig up and running and you tweak the bash scripts...etc...to suit your setup. If I can help answer any questions you might have you can send these to baldersd@hotmail.com happy to take a look!</p>
+<p>There is no support arm to this, the idea is it can get you a basic NVIDIA Ubuntu rig up and running and you tweak the bash scripts/cron jobs...etc...to suit your setup and schedules. If I can help answer any questions you might have you can send these to baldersd@hotmail.com happy to take a look!</p>
 <h2>Linux Blend</h2>
 <p>After trialling various blends of Ubuntu and other I have found under my test cases anyway that Ubuntu with MATE gui (x64) proved to be the most stable and didnt give the usual grief with NVIDIA Overclocking settings (coolbits). All this works really well for me.
 </p>
