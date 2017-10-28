@@ -121,3 +121,5 @@ tmux — terminal multiplexer enables a number of terminals to be
      reattached. 
  --> Really useful for dealing with miner software in your rig remotely with PuTTY and via CRON.
  </pre>
+<h3>to install tmux:</h3>
+<p>sudo apt-get install tmux</p>
