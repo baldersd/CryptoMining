@@ -20,7 +20,7 @@ add-apt-repository -y "ppa:graphics-drivers/ppa"
 After running this (may need to reboot) you should see the latest driver is detected in the DRIVERS applet.
 Should look something like this screenshot:
 </p>
-<img src="S8BYWY~R.PNG"/>
+<img src="drivers.PNG"/>
 <p>Switch to this one, hit "APPLY CHANGES" and reboot again.</p>
 <pre>
 To install a specific version this should also work "sudo apt-get install nvidia-384" (untested)
