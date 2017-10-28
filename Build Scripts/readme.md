@@ -113,10 +113,11 @@ sudo apt-get install cuda
 "nvidia-settings -a [gpu:0]/GPUFanControlState=1 -a [fan:0]/GPUTargetFanSpeed=70 -c :0.0" --- enables manual fan control and sets the RPM to 70%.
 </pre>
 
-<img src="SX2TJE~T.PNG"/>
-
 <p>Note the fan line - the <i>-c :0.0</i> is mandatory it means the X-server display.</p>
 <p>Also note <i>ClockOffset[2]</i> + <i>TransferRateOffset[2]</i> -- the <i>[2]</i> bit --- this is the 'POWERMIZER' performance mode the card is highest capable of which you should be able to see in "nvidia-smi" or more easily in the NVIDIA-SETTINGS applet.</p>
+
+<p>Example of a GPU as seen/set via the GUI instead</p>
+<img src="SX2TJE~T.PNG"/>
 
 <img src="SXCT56~8.PNG"/>
 
