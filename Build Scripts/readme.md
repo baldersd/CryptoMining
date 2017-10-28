@@ -34,7 +34,7 @@ Alternatively run "nvidia-smi" from shell.
 <img src="nvidiasettings.png"/>
 <strong>MAKE A NOTE OF EACH GPU(X) ASSIGNMENT.</strong>
 <p>You need these #'s for your overclock file.</p>
-<p style="color:red;"><i>Note -- the GPU numbering here might be the same match to what the miner program sets.</i></p>
+<p><i>Please Note -- the GPU numbering here isn't necessarily in the same ordering as what the miner program sets.</i></p>
 
 <img src="SXCT56~8.PNG"/>
 
