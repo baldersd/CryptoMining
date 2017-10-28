@@ -21,7 +21,7 @@ Should look something like this screenshot:
 <p>
 After running this (may need to reboot) you should see the latest driver is detected in the DRIVERS applet.
 </p>
-<p>Switch to this one and reboot again.</p>
+<p>Switch to this one, hit "APPLY CHANGES" and reboot again.</p>
 <pre>
 To install a specific version this should also work "sudo apt-get install nvidia-384" (untested)
 </pre>
