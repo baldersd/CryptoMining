@@ -21,5 +21,5 @@ After running this (may need to reboot) you should see the latest driver is dete
 </p>
 <p>Switch to this one and reboot again.</p>
 <pre>
-To install a specific version this should also work "sudo apt-get install nvidia-361" (untested)
+To install a specific version this should also work "sudo apt-get install nvidia-384" (untested)
 </pre>
