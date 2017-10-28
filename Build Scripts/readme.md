@@ -81,15 +81,16 @@ echo "net.ipv6.conf.default.disable_ipv6 = 1" >> /etc/sysctl.conf
 echo "net.ipv6.conf.lo.disable_ipv6 = 1" >> /etc/sysctl.conf
 /sbin/sysctl -p
 </pre>
-<h3>Remove CD-ROM (iso) as part of repo list</h3>
-<p>(If you get an error with apt commands)</p>
+<h3>Install common libs used by various miner programs</h3>
 <pre>
-rm -rf /etc/apt/sources.list
-touch /etc/apt/sources.list
-echo "# deb cdrom:[Linux Mint 18.2 _Sonya_ - Release amd64 20170628]/ xenial contrib main non-free" > /etc/apt/sources.list
+apt-get update && apt-get install -y software-properties-common automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev git make g++
+apt-get autoremove
+apt-get clean
 </pre>
-<h2>Step 4. Install NVIDIA CUDA 8 binaries</h2>
-<p>coming...</p>
+<h2>Step 4. Install NVIDIA CUDA binaries</h2>
+<p>https://developer.nvidia.com/cuda-downloads</p>
+<img src="cuda.png"/>
+<p>In this case I used 16.04 version >> e.g. Run "curl https://developer.nvidia.com/compute/cuda/9.0/Prod/local_installers/cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64-deb"</p>
 <h2>Step 5. Setup Over-clocking</h2>
 <p>coming...</p>
 <h2>Step 6. Setup Mining software and connect to a pool</h2>
