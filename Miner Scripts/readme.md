@@ -45,7 +45,7 @@
 <pre>sudo apt-get install tmux</pre>
 
 <h2>Postfix example config (main.cf)</h2>
-<p>This example uses SAML to allow relay through the SENDGRID service</p>
+<p>In my case I've chosen to use SAML authentication to allow secure relay through the SENDGRID service</p>
 
 <pre>
 Install POSTFIX:  apt-get install postfix
