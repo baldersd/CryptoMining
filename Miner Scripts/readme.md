@@ -19,7 +19,8 @@
   <p><strong>This is my O/C balance for the three different cards in my 1st rig I setup.<br/><br/>Mining ZCASH (ZEC) with these settings on average I get:<br/>
     -- 560 Sol/s GPU1 (1080)<br/>
     -- 180 Sol/s GPU2 & 3 (1050TI)<br/>
-    -- 300 Sol/s GPU2 & 4 (1060)<br/>
+    -- 300 Sol/s GPU2 & 4 (1060)<br/><br/>
+    +1500Sol/s total across the 5 cards.
     </strong></p>
   
 </ul>
