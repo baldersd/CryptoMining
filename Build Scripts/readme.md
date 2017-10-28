@@ -36,8 +36,6 @@ Alternatively run "nvidia-smi" from shell.
 <p>You need these #'s for your overclock file.</p>
 <p><i>Please Note -- the GPU numbering here isn't necessarily in the same ordering as what the miner program sets.</i></p>
 
-<img src="SXCT56~8.PNG"/>
-
 <h2>Step 3. Install pre-requisite libraries and key environment stuff</h2>
 <h3>SSH for remote access</h3>
 <pre>
@@ -114,10 +112,13 @@ sudo apt-get install cuda
 "nvidia-settings -c :0 -a '[gpu:0]/GPUGraphicsClockOffset[2]=170'" --- sets the Core overclock +170
 "nvidia-settings -a [gpu:0]/GPUFanControlState=1 -a [fan:0]/GPUTargetFanSpeed=70 -c :0.0" --- enables manual fan control and sets the RPM to 70%.
 </pre>
-<p>Note the fan line - the <i>-c :0.0</i> is mandatory it means the X-server display.</p>
-<p>Also note <i>ClockOffset[2]</i> + <i>TransferRateOffset[2]</i> -- the <i>[2]</i> bit --- this is the performance mode the card is highest capable of which you should be able to see in "nvidia-smi" or more easily in the NVIDIA-SETTINGS applet.</p>
 
 <img src="SX2TJE~T.PNG"/>
+
+<p>Note the fan line - the <i>-c :0.0</i> is mandatory it means the X-server display.</p>
+<p>Also note <i>ClockOffset[2]</i> + <i>TransferRateOffset[2]</i> -- the <i>[2]</i> bit --- this is the 'POWERMIZER' performance mode the card is highest capable of which you should be able to see in "nvidia-smi" or more easily in the NVIDIA-SETTINGS applet.</p>
+
+<img src="SXCT56~8.PNG"/>
 
 <h2>Step 6. Setup Mining software and connect to a pool</h2>
 <p>There are quite a few miner programs out there for all the different algos that have surfaced - as I prefer to mine ZEC here is a quick quide to EWBF miner but most mining pools will give you all you need to know to configure the other miner programs.</p>
