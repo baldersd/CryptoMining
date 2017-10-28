@@ -11,7 +11,7 @@ This article is written against version ubuntu-mate-16.04.3-desktop-amd64.iso (1
 
 <h1>-BUILD STEPS-</h1>
 <h2>Step 1. Install latest NVIDIA drivers</h2>
-See <strong>installnvidia.sh</strong> but essentially as sudo just run:
+See <strong>updatenvidia.sh</strong> but essentially as sudo just run:
 <pre>
 apt-get update
 add-apt-repository -y "ppa:graphics-drivers/ppa"
@@ -35,7 +35,9 @@ Alternatively run "nvidia-smi" from shell.
 <hr/>
 <h2>Step 3. Install pre-requisite libraries</h2>
 <p>coming...</p>
-<h2>Step 4. Setup Over-clocking</h2>
+<h2>Step 4. Install NVIDIA CUDA 8 binaries</h2>
 <p>coming...</p>
-<h2>Step 5. Setup Mining software and connect to a pool</h2>
+<h2>Step 5. Setup Over-clocking</h2>
+<p>coming...</p>
+<h2>Step 6. Setup Mining software and connect to a pool</h2>
 <p>coming...</p>
