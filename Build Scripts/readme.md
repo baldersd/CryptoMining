@@ -29,4 +29,4 @@ You want to make sure all your cards are detected this will show quickly.
 Alternatively run "nvidia-smi" from shell.
 </pre>
 <strong>MAKE A NOTE OF EACH GPU(X) ASSIGNMENT.</strong>
-<p>You need this for your overclock file.</p>
+<p>You need these #'s for your overclock file.</p>
