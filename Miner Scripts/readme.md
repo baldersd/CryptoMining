@@ -11,6 +11,11 @@
 <p>
   ** the startmining.sh file polls for the miner process so will autorestart it if it is terminated by the health checker.
 </p>
+
+<pre>
+Also if anyone can see a better way of doing this or can see opportunities to improve these health check scripts please do shout me out (baldersd@hotmail.com).
+</pre>
+
 <h2>Crontab Jobs</h2>
 <ul>
 <li>cron.txt -- use the lines within in your cron file (run "crontab -e" but under your account not sudo/root)</li>
