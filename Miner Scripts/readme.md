@@ -42,6 +42,7 @@ Also if anyone can see a better way of doing this or can see opportunities to im
   
 </ul>
 <img src="ewbfzecrig1.png">
+<img src="nvidiasettings.png">
 <h2>Using TMUX</h2>
 1. Have a look at the <a href="https://github.com/baldersd/CryptoMining/blob/master/Miner%20Scripts/startmining.sh" target="_new">startmining.sh</a> file as it will explain how the session works. You can also check out the <a href="https://linux.die.net/man/1/tmux" target="_new">man pages</a> for tmux.<br/>
 2. Once TMUX is started and the miner app started within - you will not see anything on screen yet (as it runs in background).<br/>
