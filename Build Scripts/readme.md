@@ -30,9 +30,6 @@ Alternatively run "nvidia-smi" from shell.
 </pre>
 <strong>MAKE A NOTE OF EACH GPU(X) ASSIGNMENT.</strong>
 <p>You need these #'s for your overclock file.</p>
-<hr/>
-<pre>*NOTICE* I'm working on documenting these next steps at the moment so I have attached a raw file for now no doubt imperfect but should get you going</pre>
-<hr/>
 <h2>Step 3. Install pre-requisite libraries and key environment stuff</h2>
 <h3>SSH for remote access</h3>
 <pre>
