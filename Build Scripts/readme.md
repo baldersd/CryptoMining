@@ -101,5 +101,12 @@ sudo apt-get install cuda
 </pre>
 <h2>Step 5. Setup Over-clocking</h2>
 <p>Take a look at my overclock.sh file >><br/> <a href="https://github.com/baldersd/CryptoMining/blob/master/Miner%20Scripts/overclock.sh" target="_new">overclock.sh</a></p>
+<pre>
+"nvidia-smi -pm 1" --- sets persistent mode
+"nvidia-smi -i 0 -pl 70" --- sets GPU0's power draw to a 70 limit.
+"nvidia-settings -c :0 -a '[gpu:0]/GPUMemoryTransferRateOffset[2]=1400'" --- sets the Memory overclock +1400
+"nvidia-settings -c :0 -a '[gpu:0]/GPUGraphicsClockOffset[2]=170'" --- sets the Core overclock +170
+"nvidia-settings -a [gpu:0]/GPUFanControlState=1 -a [fan:0]/GPUTargetFanSpeed=70 -c :0.0" --- enables manual fan control and sets the RPM to 70%.
+</pre>
 <h2>Step 6. Setup Mining software and connect to a pool</h2>
 <p>coming...</p>
