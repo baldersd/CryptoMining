@@ -100,7 +100,7 @@ sudo apt-get update
 sudo apt-get install cuda
 </pre>
 <h2>Step 5. Setup Over-clocking</h2>
-<p>Take a look at my overclock.sh file >><br/> <a href="https://github.com/baldersd/CryptoMining/blob/master/Miner%20Scripts/overclock.sh" target="_new">overclock.sh</a></p>
+<p>Take a look at my overclock.sh file >> on my <a href="https://github.com/baldersd/CryptoMining/tree/master/Miner%20Scripts" target="_new">Miner Scripts</a> page<br/> Direct: <a href="https://github.com/baldersd/CryptoMining/blob/master/Miner%20Scripts/overclock.sh" target="_new">overclock.sh</a></p>
 <pre>
 "nvidia-smi -pm 1" --- sets persistent mode
 "nvidia-smi -i 0 -pl 70" --- sets GPU0's power draw to a 70 limit.
