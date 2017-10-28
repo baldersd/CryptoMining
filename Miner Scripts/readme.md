@@ -43,3 +43,36 @@
 5. If you need to terminate your miner program manually see the tmuxkill.sh file.<br/>
 <h3>to install tmux:</h3>
 <pre>sudo apt-get install tmux</pre>
+
+<h2>Postfix example config (main.cf)</h2>
+<p>This example uses SAML to allow relay through the SENDGRID service</p>
+
+$ cat main.cf
+<pre>
+smtpd_banner = $myhostname ESMTP $mail_name (Ubuntu)
+biff = no
+append_dot_mydomain = no
+readme_directory = no
+smtpd_tls_cert_file=/etc/ssl/certs/ssl-cert-snakeoil.pem
+smtpd_tls_key_file=/etc/ssl/private/ssl-cert-snakeoil.key
+smtpd_use_tls=yes
+smtpd_tls_session_cache_database = btree:${data_directory}/smtpd_scache
+smtp_tls_session_cache_database = btree:${data_directory}/smtp_scache
+smtpd_relay_restrictions = permit_mynetworks permit_sasl_authenticated defer_una                                                         myhostname = miner01.kinesysgroup.co.uk
+alias_maps = hash:/etc/aliases
+alias_database = hash:/etc/aliases
+myorigin = /etc/mailname
+mydestination = miner01.kinesysgroup.co.uk, $myhostname, miner01, localhost.localdomain, localhost
+smtp_sasl_auth_enable = yes
+smtp_sasl_password_maps = hash:/etc/postfix/sasl_passwd
+smtp_sasl_security_options = noanonymous
+smtp_sasl_tls_security_options = noanonymous
+smtp_tls_security_level = encrypt
+header_size_limit = 4096000
+relayhost = [smtp.sendgrid.net]:587
+mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+mailbox_size_limit = 0
+recipient_delimiter = +
+inet_interfaces = loopback-only
+inet_protocols = all
+</pre>
