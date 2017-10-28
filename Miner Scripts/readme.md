@@ -16,7 +16,7 @@
   <li>If my public IP changes email me!(requires POSTFIX).</li>
   <li>If miner crashes restart it (currently this is coded for EWBF but you should be able to adapt this easily).</li>
   </ul>
-  <p>Be sure to change the path to your download folder location</p>
+  <p>Be sure to change the path to your download folder location.</p>
 <h2>Over-clocking</h2>
 <ul>
   <li>overclock.sh</li>
