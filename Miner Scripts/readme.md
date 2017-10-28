@@ -22,9 +22,10 @@ Also if anyone can see a better way of doing this or can see opportunities to im
 </ul>
 <p>This will execute the tasks (healthcheck scripts above) constantly:</p>
 <ul>
-  <li>Run miner on a reboot.</li>
-  <li>If my public IP changes email me!(requires POSTFIX).</li>
-  <li>If miner crashes restart it (currently this is coded for EWBF but you should be able to adapt this easily).</li>
+  <li>Start your miner program in a TMUX terminal.</li>
+  <li>Start your miner program in a TMUX terminal straight away on a reboot.</li>
+  <li>If your public IP changes email someone! (requires POSTFIX).</li>
+  <li>If miner program crashes restart it.</li>
   </ul>
   <p>Be sure to change the path to your download folder location.</p>
 <h2>Over-clocking</h2>
