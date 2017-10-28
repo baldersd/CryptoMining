@@ -112,7 +112,13 @@ sudo apt-get install cuda
 <p>Note the fan line - the <i>-c :0.0</i> is mandatory it means the X-server display.</p>
 <p>Also note <i>ClockOffset[2]</i> + <i>TransferRateOffset[2]</i> -- the <i>[2]</i> bit --- this is the performance mode the card is highest capable of which you should be able to see in "nvidia-smi" or more easily in the NVIDIA-SETTINGS applet.</p>
 <h2>Step 6. Setup Mining software and connect to a pool</h2>
-<p>coming...</p>
+<p>There are quite a few miner programs out there for all the different algos that have surfaced - as I prefer to mine ZEC here is a quick quide to EWBF miner.</p>
+<h3>EWBF</h3>
+<p>
+Link to <a href="https://bitcointalk.org/index.php?topic=1707546.0" target="_new">EWBF's CUDA Zcash miner</a>
+</p>
+<p>Latest (as of writing) is Version 0.3.4b -- now comes with a mini web client (api) for stats --  http://127.0.0.1:42000/getstat </p>
+
 <h2>Step 7. (Optional) Install TMUX</h2>
 <pre>
 tmux — terminal multiplexer enables a number of terminals to be
