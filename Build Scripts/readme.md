@@ -26,6 +26,7 @@ After running this (may need to reboot) you should see the latest driver is dete
 To install a specific version this should also work "sudo apt-get install nvidia-384" (untested)
 </pre>
 <h2>Step 2. Open NVIDIA-SETTINGS applet and review</h2>
+<img src="SXWSCI~J.PNG"/>
 <pre>
 You want to make sure all your cards are detected this will show quickly. 
 Alternatively run "nvidia-smi" from shell.
@@ -33,6 +34,9 @@ Alternatively run "nvidia-smi" from shell.
 <img src="nvidiasettings.png"/>
 <strong>MAKE A NOTE OF EACH GPU(X) ASSIGNMENT.</strong>
 <p>You need these #'s for your overclock file.</p>
+
+<img src="SXCT56~8.PNG"/>
+
 <h2>Step 3. Install pre-requisite libraries and key environment stuff</h2>
 <h3>SSH for remote access</h3>
 <pre>
@@ -111,6 +115,9 @@ sudo apt-get install cuda
 </pre>
 <p>Note the fan line - the <i>-c :0.0</i> is mandatory it means the X-server display.</p>
 <p>Also note <i>ClockOffset[2]</i> + <i>TransferRateOffset[2]</i> -- the <i>[2]</i> bit --- this is the performance mode the card is highest capable of which you should be able to see in "nvidia-smi" or more easily in the NVIDIA-SETTINGS applet.</p>
+
+<img src="SX2TJE~T.PNG"/>
+
 <h2>Step 6. Setup Mining software and connect to a pool</h2>
 <p>There are quite a few miner programs out there for all the different algos that have surfaced - as I prefer to mine ZEC here is a quick quide to EWBF miner but most mining pools will give you all you need to know to configure the other miner programs.</p>
 <h3>EWBF</h3>
