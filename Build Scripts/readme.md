@@ -30,3 +30,12 @@ Alternatively run "nvidia-smi" from shell.
 </pre>
 <strong>MAKE A NOTE OF EACH GPU(X) ASSIGNMENT.</strong>
 <p>You need these #'s for your overclock file.</p>
+<hr/>
+<pre>Working on these steps for the moment a raw file is attached</pre>
+
+<h2>Step 3. Install pre-requisite libraries</h2>
+<p>coming...</p>
+<h2>Step 4. Install latest NVIDIA drivers</h2>
+<p>coming...</p>
+<h2>Step 5. Install latest NVIDIA drivers</h2>
+<p>coming...</p>
