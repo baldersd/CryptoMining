@@ -100,8 +100,6 @@ sudo apt-get update
 sudo apt-get install cuda
 </pre>
 <h2>Step 5. Setup Over-clocking</h2>
-<pre>
-<p>Take a look at my overclock.sh file >> https://github.com/baldersd/CryptoMining/blob/master/Miner%20Scripts/overclock.sh</p>
-</pre>
+<p>Take a look at my overclock.sh file >><br/> <a href="https://github.com/baldersd/CryptoMining/blob/master/Miner%20Scripts/overclock.sh" target="_new">overclock.sh</a></p>
 <h2>Step 6. Setup Mining software and connect to a pool</h2>
 <p>coming...</p>
