@@ -9,7 +9,7 @@
 </p>
 <p>ubuntu-mate-16.04.3-desktop-amd64.iso</p>
 <h2>NVIDIA Driver</h2>
-<p>Another benefit with the MATE release is that it works with COOLBITS on the *latest* NVIDIA drivers. A lot of people (myself included) experienced issue getting later versions to allow overclocking. They have been writing on forums saying this is a common issue where no matter what commands they run with XORG or nvidia-settings, even manually editing XORG.conf, they can't get the sliders to appear in the NVIDIA-Settings app and nor does the NVIDIA cli allow overclocking. They are forced to rollback to a 376.x version.
+<p>Another benefit with the MATE release is that it works with COOLBITS on the *latest* NVIDIA drivers. A lot of people (myself included) experienced issues getting later versions to allow overclocking. They have been writing on forums saying this is a common issue where no matter what commands they run with XORG or nvidia-settings, even manually editing XORG.conf, they can't get the sliders to appear in the NVIDIA-Settings app and nor does the NVIDIA cli allow overclocking. They are forced to rollback to a 376.x version.
 </p>
 <p>Under these versions both GUI and CLI works for everything; power; memory OC; Core OC; fan control.</p>
 <p>(Required to set a startup.sh file though as settings get lost on reboot otherwise -- looking at how to deal with that better)</p>
