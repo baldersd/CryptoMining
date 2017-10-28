@@ -1,10 +1,10 @@
 <h1>Useful scripts for manipulating miner program</h1>
 <h2>Health check scripts</h2>
 <ul>
-<li>healthcheck.sh -- this reads the tail of the EWFB Miner log -- looks for the common fault codes and terminates the tmux session on finding a fault**</li>
-<li>ipmailme.sh -- uses POSTFIX to send an email message when PUBLIC IP changes (Uses a CURL request to obtain current IP and compares with the previous one which is stored in a file locally)</li>
-<li>startmining.sh -- contains the TMUX code to launch the miner and also monitors the process so we can restart it if it crashes.</li>
-<li>tmuxkill.sh -- (optional file) -- hard stops the miner software (actual kills the tmux session) on demand.</li>
+<li><strong>healthcheck.sh</strong> -- this reads the tail of the EWFB Miner log -- looks for the common fault codes and terminates the tmux session on finding a fault**</li>
+<li><strong>ipmailme.sh</strong> -- uses POSTFIX to send an email message when PUBLIC IP changes (Uses a CURL request to obtain current IP and compares with the previous one which is stored in a file locally)</li>
+<li><strong>startmining.sh</strong> -- contains the TMUX code to launch the miner and also monitors the process so we can restart it if it crashes.</li>
+<li><strong>tmuxkill.sh</strong> -- (optional file) -- hard stops the miner software (actual kills the tmux session) on demand.</li>
 </ul>
 <p>
   ** the startmining.sh file polls for the miner process so will autorestart it if it is terminated by the health checker.
