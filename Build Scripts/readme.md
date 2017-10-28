@@ -114,7 +114,7 @@ sudo apt-get install cuda
 <h2>Step 6. Setup Mining software and connect to a pool</h2>
 <p>There are quite a few miner programs out there for all the different algos that have surfaced - as I prefer to mine ZEC here is a quick quide to EWBF miner but most mining pools will give you all you need to know to configure the other miner programs.</p>
 <h3>EWBF</h3>
-<p>Note - I use the Flypool Zcash mining pool for my rig which uses port 3333</p>
+<p>Note - I use the Flypool Zcash mining pool for my rig which uses port 3333 --- https://zcash.flypool.org</p>
 <p>
 Download link to <a href="https://bitcointalk.org/index.php?topic=1707546.0" target="_new">EWBF's CUDA Zcash miner</a>
 </p>
