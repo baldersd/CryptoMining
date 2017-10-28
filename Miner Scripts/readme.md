@@ -47,6 +47,16 @@
 <h2>Postfix example config (main.cf)</h2>
 <p>This example uses SAML to allow relay through the SENDGRID service</p>
 
+<pre>
+Install POSTFIX:  apt-get install postfix
+Find your Postfix config file, typically /etc/postfix/main.cf
+</pre>
+
+<pre>
+Install SAML support:  apt-get install libsasl2-modules
+Set the API and password for SENDGRID. >> https://sendgrid.com/docs/Integrate/Mail_Servers/postfix.html
+</pre>
+
 $ cat main.cf
 <pre>
 smtpd_banner = $myhostname ESMTP $mail_name (Ubuntu)
@@ -75,4 +85,8 @@ mailbox_size_limit = 0
 recipient_delimiter = +
 inet_interfaces = loopback-only
 inet_protocols = all
+</pre>
+
+<pre>
+Restart POSTFIX:  systemctl restart postfix
 </pre>
