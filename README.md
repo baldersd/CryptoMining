@@ -1,7 +1,7 @@
 
 <h1># CryptoMining # Useful tools for Crypto Mining in Ubuntu</h1>
 <h2>Description</h2>
-<p>Welcome to my mini portal for assistance for newcomers to mining for building a decent; nicely overclocked rig; and setting up a miner with some fault tolerance to mine various crypto currencies.  
+<p>Welcome to my mini portal for assistance for newcomers to mining in building a decent, stable, nicely overclocked rig and setting up your miner(s) with some fault tolerance to mine various crypto currencies 24/7 without suffering too much downtime and manual effort restoring things.  
 </p>
 <p>There is no support arm to this, the idea is it can get you a basic NVIDIA Ubuntu rig up and running and you tweak the bash scripts...etc...to suit your setup. If I can help answer any questions you might have you can send these to baldersd@hotmail.com happy to take a look!</p>
 <h2>Linux Blend</h2>
