@@ -14,6 +14,15 @@
 <p>Under these versions both GUI and CLI works for everything; power; memory OC; Core OC; fan control.</p>
 <p>(Required to set a startup.sh file though as settings get lost on reboot otherwise -- looking at how to deal with that better)</p>
 <p>NVIDIA-SMI 384.90 | Driver Version: 384.90  </p>
+<h2>*** New updates ***</h2>
+<p>20/10/2017 | Added TMUX functionality<br/>
+  <i style='padding-left:20px;'>
+   tmux — terminal multiplexer enables a number of terminals to be
+     created, accessed, and controlled from a single screen.  tmux may be
+     detached from a screen and continue running in the background, then later
+     reattached. --? Really useful for dealing with rigs remotely with pUTTY.
+  </i>
+</p>
 <h2>Donations</h2>
 <p>If any of this has saved you some time and effort and you are willing to make a small donation I would of course be very grateful however I don't expect anyone to feel obliged to do so as this is free usage for all. Up to you.</p>
 <p>
