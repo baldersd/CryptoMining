@@ -166,12 +166,12 @@ user   t1LpQmsa3oa3W1B8B4rzKRB7kpKPkXf1Mbi.rig1/baldersd@hotmail.com
 pass   x
 </pre>
 
-<h2>Step 8. Test run the miner and move on to "Mining Scripts" page.</h2>
+<h2>Step 7. Test run the miner and move on to "Mining Scripts" page.</h2>
 <strong>Always allow at least 30minutes of mining for any kind of accurate stats to show in the mining pool dashboard (some take longer)</strong>
 
 <img src="flypool.png"/>
 
-<h2>Step 7. (Optional) Install TMUX</h2>
+<h2>Step 8. (Optional) Install TMUX</h2>
 <pre>
 tmux — terminal multiplexer enables a number of terminals to be
      created, accessed, and controlled from a single screen.  tmux may be
