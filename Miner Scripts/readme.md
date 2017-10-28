@@ -36,8 +36,8 @@
 </ul>
 <img src="ewbfzecrig1.png">
 <h2>Using TMUX</h2>
-1. Have a look at the startmining.sh file as it will explain how the session works.
-2. Once TMUX is started and the miner app started within - you will not see anything on screen yet (as it runs in background).
-3. Run "tmux attach" to connect to that session.
-4. You can close the terminal window anytime it will remain running.
-5. If you need to terminate it manually see the tmuxkill.sh file.
+1. Have a look at the startmining.sh file as it will explain how the session works.<br/>
+2. Once TMUX is started and the miner app started within - you will not see anything on screen yet (as it runs in background).<br/>
+3. Run "tmux attach" to connect to that session.<br/>
+4. You can close the terminal window anytime it will remain running.<br/>
+5. If you need to terminate it manually see the tmuxkill.sh file.<br/>
