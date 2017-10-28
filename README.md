@@ -1,5 +1,6 @@
 
 <h1># CryptoMining # Useful tools for Crypto Mining in Ubuntu</h1>
+https://github.com/baldersd/CryptoMining
 <h2>Description</h2>
 <p>Welcome to my mini portal for assistance for newcomers to mining in building a decent, stable, nicely overclocked rig and setting up your miner(s) with some fault tolerance to mine various crypto currencies 24/7 without suffering too much downtime and manual effort restoring things.  
 </p>
