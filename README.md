@@ -4,6 +4,11 @@ https://github.com/baldersd/CryptoMining
 <h2>Description</h2>
 <p>Welcome to my mini portal providing some assistance to newcomers to mining with some guides and scripts to building a decent, stable, nicely overclocked rig and setting up your miner(s) with some fault tolerance to mine various crypto currencies 24/7 without suffering too much downtime and manual effort restoring things.  
 </p>
+<p>There are two main areas at the moment:</p>
+<ul>
+  <li>Build Scripts -- Everything from vanilla Ubuntu to fully working Nvidia Overclocked rig.</li>
+  <li>Mining Scripts -- Health check scripts for 24/7 crash-resistant mining.</li>
+</ul>
 <p>There is no support arm to this, the idea is it can get you a basic NVIDIA Ubuntu rig up and running and you tweak the bash scripts/cron jobs...etc...to suit your setup and schedules.</p>
 <p><i>If you do want to ask me something please feel free to and when I can I will try to help. Send your questions to <strong>baldersd@hotmail.com</strong> happy to take a look!</i></p>
 <h2>Linux Blend</h2>
@@ -27,7 +32,7 @@ https://github.com/baldersd/CryptoMining
 <h2>Usage/Download</h2>
 You can just download the files from here or I guess you can git clone as well.
 <pre>
-git clone git@github.com:baldersd/CryptoMining.git minertools
+git clone https://github.com/baldersd/CryptoMining.git minertools
 cd minertools
 </pre>
 <h2>Donations</h2>
