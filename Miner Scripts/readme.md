@@ -8,8 +8,9 @@
 </ul>
 <h2>Crontab Jobs</h2>
 <ul>
-<li>cron.txt</li>
+<li>cron.txt -- use the lines within in your cron file (run "crontab -e" but under your account not sudo/root)</li>
 </ul>
+<p>This will execute constantly:<br/>a) <br/>b) <br/>c) <br/></p>
 <h2>Over-clocking</h2>
 <ul>
   <li>overclock.sh</li>
