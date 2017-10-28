@@ -40,4 +40,4 @@
 2. Once TMUX is started and the miner app started within - you will not see anything on screen yet (as it runs in background).<br/>
 3. Run "tmux attach" to connect to that session.<br/>
 4. You can close the terminal window anytime it will remain running.<br/>
-5. If you need to terminate it manually see the tmuxkill.sh file.<br/>
+5. If you need to terminate your miner program manually see the tmuxkill.sh file.<br/>
