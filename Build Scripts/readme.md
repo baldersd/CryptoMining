@@ -134,9 +134,9 @@ Set the log level to 2 so you can capture decent diagnostics (primarily for the 
 
 API is the address and port number that you want the mini website for stats to run under.
 
+You can set secondary pool servers for failover. I have set one additional pool server if EU one goes down.
+
 <strong>[Example miner.cfg]</strong>
-# Common parameters
-# All the parameters here are similar to the command line arguments
 [common]
 cuda_devices 0 1 2 3 4
 intensity    64 64 64 64 64
@@ -149,19 +149,12 @@ log          2
 logfile      miner.log
 api          192.168.1.88:42000
 
-# The miner start work from this server
-# When the server is fail, the miner will try to reconnect 3 times
-# After three unsuccessful attempts, the miner will switch to the next server
-# You can add up to 8 servers
-
-# main server 1
 [server]
 server eu1-zcash.flypool.org
 port   3333
 user   t1LpQmsa3oa3W1B8B4rzKRB7kpKPkXf1Mbi.rig1/baldersd@hotmail.com
 pass   x
 
-#additional server 2
 [server]
 server us1-zcash.flypool.org
 port   3333
