@@ -112,12 +112,62 @@ sudo apt-get install cuda
 <p>Note the fan line - the <i>-c :0.0</i> is mandatory it means the X-server display.</p>
 <p>Also note <i>ClockOffset[2]</i> + <i>TransferRateOffset[2]</i> -- the <i>[2]</i> bit --- this is the performance mode the card is highest capable of which you should be able to see in "nvidia-smi" or more easily in the NVIDIA-SETTINGS applet.</p>
 <h2>Step 6. Setup Mining software and connect to a pool</h2>
-<p>There are quite a few miner programs out there for all the different algos that have surfaced - as I prefer to mine ZEC here is a quick quide to EWBF miner.</p>
+<p>There are quite a few miner programs out there for all the different algos that have surfaced - as I prefer to mine ZEC here is a quick quide to EWBF miner but most mining pools will give you all you need to know to configure the other miner programs.</p>
 <h3>EWBF</h3>
 <p>
-Link to <a href="https://bitcointalk.org/index.php?topic=1707546.0" target="_new">EWBF's CUDA Zcash miner</a>
+Download link to <a href="https://bitcointalk.org/index.php?topic=1707546.0" target="_new">EWBF's CUDA Zcash miner</a>
 </p>
 <p>Latest (as of writing) is Version 0.3.4b -- now comes with a mini web client (api) for stats --  http://127.0.0.1:42000/getstat </p>
+<pre>
+Just download the Linux version tarball and extract to a folder of your choice.
+Using nano or vi edit the miner.cfg file to reflect your pool settings and user/worker account or wallet:
+
+Set "cuda_devices" to equal the number of cards in your rig starting with 0.
+I have 5 cards so mine would be set to 0 1 2 3 4.
+
+I didn't see any reason to lower the intensity from the MAX setting of 64.
+
+Set eexit to 1 --- this is meant to turn on some built-in crash protection (not sure its much good mind you).
+(I have created an external script to address crashes and reboots -- see the <a href="https://github.com/baldersd/CryptoMining/tree/master/Miner%20Scripts" target="_new">Miner Scripts</a> page.
+
+Set the log level to 2 so you can capture decent diagnostics (primarily for the health checker script's benefit).
+
+API is the address and port number that you want the mini website for stats to run under.
+
+<strong>[Example miner.cfg]</strong>
+# Common parameters
+# All the parameters here are similar to the command line arguments
+[common]
+cuda_devices 0 1 2 3 4
+intensity    64 64 64 64 64
+templimit    83
+pec          0
+boff         0
+eexit        1
+tempunits    c
+log          2
+logfile      miner.log
+api          192.168.1.88:42000
+
+# The miner start work from this server
+# When the server is fail, the miner will try to reconnect 3 times
+# After three unsuccessful attempts, the miner will switch to the next server
+# You can add up to 8 servers
+
+# main server 1
+[server]
+server eu1-zcash.flypool.org
+port   3333
+user   t1LpQmsa3oa3W1B8B4rzKRB7kpKPkXf1Mbi.rig1/baldersd@hotmail.com
+pass   x
+
+#additional server 2
+[server]
+server us1-zcash.flypool.org
+port   3333
+user   t1LpQmsa3oa3W1B8B4rzKRB7kpKPkXf1Mbi.rig1/baldersd@hotmail.com
+pass   x
+</pre>
 
 <h2>Step 7. (Optional) Install TMUX</h2>
 <pre>
