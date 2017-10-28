@@ -17,14 +17,14 @@ https://github.com/baldersd/CryptoMining
 <p>(Required to set a startup.sh file though as settings get lost on reboot otherwise -- looking at how to deal with that better)</p>
 <p>NVIDIA-SMI 384.90 | Driver Version: 384.90  </p>
 <h2>*** New updates ***</h2>
-<p>20/10/2017 | Added TMUX functionality<br/>
+<pre>20/10/2017 | Added TMUX functionality<br/>
   <i style='padding-left:20px;'>
    tmux — terminal multiplexer enables a number of terminals to be
      created, accessed, and controlled from a single screen.  tmux may be
      detached from a screen and continue running in the background, then later
      reattached. <br/> <strong>--&gt; Really useful for dealing with miner software in your rig remotely with pUTTY.</strong>
   </i>
-</p>
+</pre>
 <h2>Usage/Download</h2>
 You can just download the files from here or I guess you can git clone as well.
 <pre>
