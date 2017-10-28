@@ -24,6 +24,12 @@
      reattached. <br/> <strong>--&gt; Really useful for dealing with miner software in your rig remotely with pUTTY.</strong>
   </i>
 </p>
+<h2>Usage/Download</h2>
+You can just download the files from here or I guess you can git clone as well.
+<pre>
+git clone https://github.com/ minertools
+cd minertools
+</pre>
 <h2>Donations</h2>
 <p>If any of this has saved you some time and effort and you are willing to make a small donation I would of course be very grateful however I don't expect anyone to feel obliged to do so as this is free usage for all. Up to you.</p>
 <p>
