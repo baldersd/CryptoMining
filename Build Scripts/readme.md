@@ -113,3 +113,11 @@ sudo apt-get install cuda
 <p>Also note <i>ClockOffset[2]</i> + <i>TransferRateOffset[2]</i> -- the <i>[2]</i> bit --- this is the performance mode the card is highest capable of which you should be able to see in "nvidia-smi" or more easily in the NVIDIA-SETTINGS applet.</p>
 <h2>Step 6. Setup Mining software and connect to a pool</h2>
 <p>coming...</p>
+<h2>Step 7. (Optional) Install TMUX</h2>
+<pre>
+tmux — terminal multiplexer enables a number of terminals to be
+     created, accessed, and controlled from a single screen.  tmux may be
+     detached from a screen and continue running in the background, then later
+     reattached. 
+ --> Really useful for dealing with miner software in your rig remotely with PuTTY and via CRON.
+ </pre>
