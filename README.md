@@ -14,7 +14,7 @@ https://github.com/baldersd/CryptoMining
 <p>Another benefit with the MATE release is that it works with COOLBITS on the *latest* NVIDIA drivers. A lot of people (myself included) experienced issues getting later versions to allow overclocking. They have been writing on forums saying this is a common issue where no matter what commands they run with XORG or nvidia-settings, even manually editing XORG.conf, they can't get the sliders to appear in the NVIDIA-Settings app and nor does the NVIDIA cli allow overclocking. They are forced to rollback to a 376.x version.
 </p>
 <p>Under these versions both GUI and CLI works for everything; power; memory OC; Core OC; fan control.</p>
-<p>(Required to set a startup.sh file though as settings get lost on reboot otherwise -- looking at how to deal with that better)</p>
+<p>(Required to set via a startup script though as settings seem to always get lost on reboot -- I'm looking at how to deal with that better)</p>
 <p>NVIDIA-SMI 384.90 | Driver Version: 384.90  </p>
 <h2>*** New updates ***</h2>
 <pre>20/10/2017 | Added TMUX functionality
