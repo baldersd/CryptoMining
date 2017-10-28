@@ -9,3 +9,10 @@ This article is written against version ubuntu-mate-16.04.3-desktop-amd64.iso (1
 ~If you need help burning the ISO to a USB/HDD try Rufus: https://rufus.akeo.ie/.~
 </pre>
 
+<h1>-BUILD STEPS-</h1>
+<h2>Step 1. Install latest NVIDIA drivers</h2>
+See <strong>installnvidia.sh</strong> but essentially as sudo just run:
+<pre>
+apt-get update
+add-apt-repository -y "ppa:graphics-drivers/ppa"
+</pre>
