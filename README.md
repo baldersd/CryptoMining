@@ -21,7 +21,7 @@ https://github.com/baldersd/CryptoMining
   <i style='padding-left:20px;'>tmux — terminal multiplexer enables a number of terminals to be
      created, accessed, and controlled from a single screen.  tmux may be
      detached from a screen and continue running in the background, then later
-     reattached. <br/> <strong>--&gt; Really useful for dealing with miner software in your rig remotely with pUTTY and via CRON.</strong>
+     reattached. <br/> <strong>--&gt; Really useful for dealing with miner software in your rig remotely with PuTTY and via CRON.</strong>
   </i>
 </pre>
 <h2>Usage/Download</h2>
