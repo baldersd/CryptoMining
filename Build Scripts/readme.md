@@ -90,10 +90,10 @@ apt-get clean
 <h2>Step 4. Install NVIDIA CUDA binaries</h2>
 <p>https://developer.nvidia.com/cuda-downloads</p>
 <img src="cuda.png"/>
-<p>In this case I used 16.04 version >> e.g. Run "curl https://developer.nvidia.com/compute/cuda/9.0/Prod/local_installers/cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64-deb"</p>
+<p><i>In this case I used 16.04 version</i></p>
 <pre>
 <strong>Installation Instructions:</strong>
-curl https://developer.nvidia.com/compute/cuda/9.0/Prod/local_installers/cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64-deb
+wget https://developer.nvidia.com/compute/cuda/9.0/Prod/local_installers/cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64-deb
 sudo dpkg -i cuda-repo-ubuntu1604-9-0-local_9.0.176-1_amd64-deb
 sudo apt-key add /var/cuda-repo-<version>/7fa2af80.pub
 sudo apt-get update
