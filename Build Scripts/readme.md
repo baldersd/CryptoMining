@@ -120,22 +120,15 @@ Download link to <a href="https://bitcointalk.org/index.php?topic=1707546.0" tar
 <p>Latest (as of writing) is Version 0.3.4b -- now comes with a mini web client (api) for stats --  http://127.0.0.1:42000/getstat </p>
 <pre>
 Just download the Linux version tarball and extract to a folder of your choice.
-Using nano or vi edit the miner.cfg file to reflect your pool settings and user/worker account or wallet:
-
+Using nano or vi edit the miner.cfg file to reflect your pool settings and user/worker account or wallet:<br/><br/>
 Set "cuda_devices" to equal the number of cards in your rig starting with 0.
-I have 5 cards so mine would be set to 0 1 2 3 4.
-
-I didn't see any reason to lower the intensity from the MAX setting of 64.
-
+I have 5 cards so mine would be set to 0 1 2 3 4.<br/><br/>
+I didn't see any reason to lower the intensity from the MAX setting of 64.<br/><br/>
 Set eexit to 1 --- this is meant to turn on some built-in crash protection (not sure its much good mind you).
-(I have created an external script to address crashes and reboots -- see the <a href="https://github.com/baldersd/CryptoMining/tree/master/Miner%20Scripts" target="_new">Miner Scripts</a> page.
-
-Set the log level to 2 so you can capture decent diagnostics (primarily for the health checker script's benefit).
-
-API is the address and port number that you want the mini website for stats to run under.
-
-You can set secondary pool servers for failover. I have set one additional pool server if EU one goes down.
-
+(I have created an external script to address crashes and reboots -- see the <a href="https://github.com/baldersd/CryptoMining/tree/master/Miner%20Scripts" target="_new">Miner Scripts</a> page.<br/><br/>
+Set the log level to 2 so you can capture decent diagnostics (primarily for the health checker script's benefit).<br/><br/>
+API is the address and port number that you want the mini website for stats to run under.<br/><br/>
+You can set secondary pool servers for failover. I have set one additional pool server if EU one goes down.<br/><br/>
 <strong>[Example miner.cfg]</strong>
 [common]
 cuda_devices 0 1 2 3 4
