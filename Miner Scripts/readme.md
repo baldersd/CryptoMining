@@ -12,9 +12,9 @@
 </ul>
 <p>This will execute the healthcheck scripts above constantly:</p>
 <ul>
-  <li>a) Run miner on a reboot.</li>
-  <li>b) If my public IP changes email me!(requires POSTFIX).</li>
-  <li>c) If miner crashes restart it (currently this is coded for EWBF but you should be able to adapt this easily).<li/>
+  <li>Run miner on a reboot.</li>
+  <li>If my public IP changes email me!(requires POSTFIX).</li>
+  <li>If miner crashes restart it (currently this is coded for EWBF but you should be able to adapt this easily).</li>
   </ul>
 <h2>Over-clocking</h2>
 <ul>
