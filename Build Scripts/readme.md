@@ -31,11 +31,11 @@ Alternatively run "nvidia-smi" from shell.
 <strong>MAKE A NOTE OF EACH GPU(X) ASSIGNMENT.</strong>
 <p>You need these #'s for your overclock file.</p>
 <hr/>
-<pre>Working on these steps for the moment a raw file is attached</pre>
-
+<pre>*NOTICE* I'm working on documenting these next steps at the moment so I have attached a raw file for now no doubt imperfect but should get you going</pre>
+<hr/>
 <h2>Step 3. Install pre-requisite libraries</h2>
 <p>coming...</p>
-<h2>Step 4. Install latest NVIDIA drivers</h2>
+<h2>Step 4. Setup Over-clocking</h2>
 <p>coming...</p>
-<h2>Step 5. Install latest NVIDIA drivers</h2>
+<h2>Step 5. Setup Mining software and connect to a pool</h2>
 <p>coming...</p>
