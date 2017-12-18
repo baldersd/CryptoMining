@@ -5,9 +5,9 @@
 (So you can use different compilations of ccminer for better hash rates on certain algs)<br/>
 ----------------------Uses a txt file for specifying CCMINER or MINER (EWBF)<br/>
 ----------------------Uses a txt file for specifying ALGO to mine.<br/>
-dbaldree@miner01:~/Desktop/ZClaymore$ cat whatminer
+dbaldree@miner01:~/Desktop/$ cat whatminer
 <strong>ccminer</strong>
-dbaldree@miner01:~/Desktop/ZClaymore$ cat whatalg
+dbaldree@miner01:~/Desktop/$ cat whatalg
 <strong>SIB</strong>
 </pre>
 <h2>Health check scripts</h2>
