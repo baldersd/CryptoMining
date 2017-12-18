@@ -1,0 +1,20 @@
+nvidia-smi --query-gpu=gpu_name,gpu_bus_id,vbios_version --format=csv
+
+Enable Persistence Mode
+Any settings below for clocks and power get reset between program runs unless you enable persistence mode (PM) for the driver.
+Also note that the nvidia-smi command runs much faster if PM mode is enabled.
+nvidia-smi -pm 1              #— Make clock, power and other settings persist across program runs / driver invocations
+
+Clocks
+nvidia-smi -ac <MEM clock, Graphics clock>  	  #View clocks supported
+nvidia-smi –q –d SUPPORTED_CLOCKS	              #Set one of supported clocks
+nvidia-smi -q –d CLOCK	                        #View current clock
+nvidia-smi --auto-boost-default=ENABLED -i 0   	#Enable boosting GPU clocks (K80 and later)
+nvidia-smi --rac                                #Reset clocks back to base
+
+Power
+nvidia-smi –pl N                                #Set power cap (maximum wattage the GPU will use)
+nvidia-smi -pm 1	                              #Enable persistence mode
+nvidia-smi stats -i <device#> -d pwrDraw	      #Command that provides continuous monitoring of detail stats such as power
+
+nvidia-smi --query-gpu=index,timestamp,power.draw,clocks.sm,clocks.mem,clocks.gr --format=csv -l 1
