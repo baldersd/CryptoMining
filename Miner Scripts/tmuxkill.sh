@@ -1,2 +1,2 @@
 #!/bin/bash
-tmux kill-window -t mining
+kill $(ps aux | grep '[t]mux' | awk '{print $2}')
