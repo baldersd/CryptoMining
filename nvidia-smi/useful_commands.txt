@@ -1,3 +1,6 @@
+Enable coolbits
+sudo nvidia-xconfig -a --cool-bits=28
+
 nvidia-smi --query-gpu=gpu_name,gpu_bus_id,vbios_version --format=csv
 
 Enable Persistence Mode
