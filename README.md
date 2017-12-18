@@ -20,8 +20,10 @@ https://github.com/baldersd/CryptoMining
 </p>
 <p>Under these versions both GUI and CLI works for everything; power; memory OC; Core OC; fan control.</p>
 <p>(Required to set via a startup script though as settings seem to always get lost on reboot -- I'm looking at how to deal with that better)</p>
-<p>NVIDIA-SMI 384.90 | Driver Version: 384.90  </p>
+<p>NVIDIA-SMI 387.34 | Driver Version: 387.34</p>
 <h2>*** New updates ***</h2>
+<pre>18/12/2017 | Updated startmining and healthchk scripts<br/>18/12/2017 | Upgraded CUDA and NVIDIA to 9.1 and 387.34 driver.  
+</pre>
 <pre>20/10/2017 | Added TMUX functionality
   <i style='padding-left:20px;'>tmux — terminal multiplexer enables a number of terminals to be
      created, accessed, and controlled from a single screen.  tmux may be
@@ -38,9 +40,9 @@ cd minertools
 <h2>Donations</h2>
 <p>If any of this has saved you some time and effort and you are willing to make a small donation I would of course be very grateful however I don't expect anyone to feel obliged to do so as this is free usage for all. Up to you.</p>
 <p>
-BTC address: 147j3E8wosUS8XbWG6YC7RKDwij7S7fyBD<br/>
-ZEC address: t1JeN79UwgR572JRzs7ue5J1v5LEiefFzzu<br/>
-ETH address: 0xb2d852e0fb624d929622bb945c3c8e49613c73d1<br/>
+BTC address: 1AF2QbUxWSrEV8EVFWkLQfdYozK99nBZXu<br/>
+ZEC address: t1LpQmsa3oa3W1B8B4rzKRB7kpKPkXf1Mbi<br/>
+ETH address: 0x7270e7f5de395c630cee546c6661dc0d56886f2e<br/>
 </p>
 
 <h3>License</h3>
