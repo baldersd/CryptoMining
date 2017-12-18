@@ -1,10 +1,10 @@
 <h1>Useful scripts for manipulating miner program</h1>
 <pre>Please note this was designed for use with EWBF miner but should be pretty easy to adapt for other miners like Claymore</pre>
 <h2>*** New updates ***</h2>
-<pre>18/12/2017 | Added multi-miner (ccminer multiple blends) health-checking and startup:<br/>
-(So you can use different compilations of ccminer for better hash rates on certain algs)<br/>
-----------------------Uses a txt file for specifying CCMINER or MINER (EWBF)<br/>
-----------------------Uses a txt file for specifying ALGO to mine.<br/>
+<pre>18/12/2017 | Added multi-miner (ccminer multiple blends) health-checking and startup:
+(So you can use different compilations of ccminer for better hash rates on certain algs)
+----------------------Uses a txt file for specifying CCMINER or MINER (EWBF)
+----------------------Uses a txt file for specifying ALGO to mine.
 dbaldree@miner01:~/Desktop/$ cat whatminer
 <strong>ccminer</strong>
 dbaldree@miner01:~/Desktop/$ cat whatalg
