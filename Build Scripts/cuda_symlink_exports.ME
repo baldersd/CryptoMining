@@ -1,0 +1,15 @@
+#create the symlink to your version of CUDA -- can be used potentially to switch between multiple CUDA versions.
+ln -s -T /usr/local/cuda-9.1 /usr/local/cuda
+
+#Create the environment path statements to the CUDA folder
+export PATH=/usr/local/cuda-9.1/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-9.1/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+
+#permanent
+echo "" >> ~/.bashrc
+echo "export PATH=/usr/local/cuda-9.1/bin:$PATH" >> ~/.bashrc
+echo "export LD_LIBRARY_PATH=/usr/local/cuda-9.1/lib64:$LD_LIBRARY_PATH" >> ~/.bashrc
+
+#might need to fix G++  --- CCMINER ./build is very picky
+sudo apt-get -y install gcc g++
+
