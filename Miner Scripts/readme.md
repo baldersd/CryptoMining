@@ -2,7 +2,7 @@
 <pre>Please note this was designed for use with EWBF miner but should be pretty easy to adapt for other miners like Claymore</pre>
 <h2>*** New updates ***</h2>
 <pre>31/12/2017 | Running X (nvidia-settings) remotely<br/>
-sudo DISPLAY=:0 XAUTHORITY=/var/run/lightdm/root/:0 <command>
+sudo DISPLAY=:0 XAUTHORITY=/var/run/lightdm/root/:0 <<command>>
 (e.g. sudo DISPLAY=:0 XAUTHORITY=/var/run/lightdm/root/:0 nvidia-settings -t -q GPUUtilization)
 (e.g. sudo DISPLAY=:0 XAUTHORITY=/var/run/lightdm/root/:0 ./myoverclock.sh)
 ----------------------Thanks to https://github.com/johnstcn for posting this.
