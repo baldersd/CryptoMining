@@ -1,4 +1,9 @@
 #!/bin/sh
+
+#
+# See https://github.com/baldersd/CryptoMining/tree/master/Miner%20Scripts for example .sh nvidia-settings overclocking (local or remote exec).
+#
+
 choice=""
 while [ "$choice" != "q" ]
 do
