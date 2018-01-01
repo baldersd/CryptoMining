@@ -5,6 +5,7 @@
 sudo DISPLAY=:0 XAUTHORITY=/var/run/lightdm/root/:0 <command>
 (e.g. sudo DISPLAY=:0 XAUTHORITY=/var/run/lightdm/root/:0 nvidia-settings -t -q GPUUtilization)
 (e.g. sudo DISPLAY=:0 XAUTHORITY=/var/run/lightdm/root/:0 ./myoverclock.sh)
+----------------------Thanks to https://github.com/johnstcn for posting this.
 </pre>
 <pre>18/12/2017 | Added multi-miner (ccminer multiple blends) health-checking and startup:
 (So you can use different compilations of ccminer for better hash rates on certain algs)
